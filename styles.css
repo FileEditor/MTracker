@@ -1,5 +1,33 @@
+html{
+    height: 100%;
+}
+.navbar{
+    background-color: #292929;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar a{
+    margin:15px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color:#1ed55f;
+}
 body{
     margin:0;
-    background: pink;
+    height: 100%;
+    background: #121212;
+    background-repeat: no-repeat;
     text-align: center;
+}
+html {
+    color: white;
+    font-family: "Franklin Gothic Book";
+}
+h1:nth-of-type(1){
+    color: #1ed55f;
+    font-size: 50px;
 }
