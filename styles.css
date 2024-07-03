@@ -12,9 +12,14 @@ html{
     margin:15px;
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .navbar a:hover{
     color:#1ed55f;
+}
+.navbar a:current{
+    color: red;
 }
 body{
     margin:0;
@@ -27,7 +32,18 @@ html {
     color: white;
     font-family: "Franklin Gothic Book";
 }
-h1:nth-of-type(1){
+h1{
     color: #1ed55f;
     font-size: 50px;
+}
+.chart{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
 }
